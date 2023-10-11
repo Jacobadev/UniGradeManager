@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Jacoba/Documents/Coding/C/Projetos/Banco_De_Dados",
-      "program": "c:/Users/Jacoba/Documents/Coding/C/Projetos/Banco_De_Dados/build/Debug/outDebug",
+      "cwd": "c:/Users/Jacoba/Documents/Coding/C/Projetos/Banco_De_Dados/src",
+      "program": "c:/Users/Jacoba/Documents/Coding/C/Projetos/Banco_De_Dados/src/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
