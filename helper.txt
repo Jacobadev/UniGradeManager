@@ -1,0 +1,17 @@
+
+1. Cadastrar aluno
+2. Editar aluno
+3. Consultar aluno
+4. Remover aluno
+
+
+1. Cadastrar disciplina
+2. Editar disciplina
+3. Consultar disciplina
+4. Remover disciplina
+
+
+1. Cadastrar notas
+2. Editar notas
+3. Consultar notas
+4. Remover notas
