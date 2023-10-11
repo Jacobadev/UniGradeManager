@@ -1,11 +1,10 @@
-#include "view.h"
+#include "../include/view.h"
 #include <stdio.h>
 
 int students_option;
 
 int handleStudent()
 { 
-    
     do
     {
         printf(":\n");
@@ -115,3 +114,4 @@ int handleGrade()
         break;
     }
 }
+''

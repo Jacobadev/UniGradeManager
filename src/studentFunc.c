@@ -1,4 +1,4 @@
-#include "view.h"
+#include "../include/view.h"
 #include <stdio.h>
 int registerStudent(){
     printf("eae");
