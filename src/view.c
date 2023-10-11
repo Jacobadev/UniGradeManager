@@ -1,16 +1,15 @@
-#include <stdio.h>
 #include "view.h"
-
+#include <stdio.h>
 int show_options()
-{
-
+{  
+    int first_option;
     do
     {
         printf("Choose an option:\n");
         printf("1 - Students\n2 - Subjects\n3 - Grades\n4 - Exit\n");
         scanf("%d", &first_option);
 
-        if (first_option < REGISTER_SUBJECT || first_option > EXIT)
+        if (first_option < STUDENTS || first_option > EXIT)
         {
             printf("Your answer %d is not valid.\n", first_option);
         }
@@ -19,15 +18,15 @@ int show_options()
             break;
         }
 
-    } while (first_option < REGISTER_SUBJECT || first_option > EXIT);
+    } while (first_option < STUDENTS || first_option > EXIT);
 
     switch (first_option)
     {
-    case REGISTER_SUBJECT:
-        handleStudents();
+    case STUDENTS:
+        handleStudent();
         break;
-case SUBJECTS:
-        handleSubjects();
+    case SUBJECTS:
+        handleSubject();
         break;
     case GRADES:
         handleGrade();
@@ -41,4 +40,3 @@ case SUBJECTS:
     }
     return 0;
 }
-
