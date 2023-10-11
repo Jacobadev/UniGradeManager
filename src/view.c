@@ -1,4 +1,4 @@
-#include "../include/view.h"
+#include "C:\Users\Jacoba\Documents\Coding\C\Projetos\Banco_De_Dados\include\view.h"
 #include <stdio.h>
 int show_options()
 {  

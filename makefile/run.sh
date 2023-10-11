@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Define variables for source code files and executable
-source_dir="C:/Users/Jacoba/Documents/Coding/C/Projetos/Banco_De_Dados/src"
+source_dir="../src"
 source_files=("view.c" "model.c" "handleFunc.c" "studentFunc.c")
-output_dir="C:/Users/Jacoba/Documents/Coding/C/Projetos/Banco_De_Dados/bin"
-executable="database"
+output_dir="../bin"
+executable="executable"
 
 # Change to the source directory
 cd "$source_dir" || { echo "Error: Unable to change to the source directory."; exit 1; }
