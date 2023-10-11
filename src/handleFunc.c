@@ -8,7 +8,7 @@ int handleStudent()
     
     do
     {
-        printf("Students Menu:\n");
+        printf(":\n");
         printf("1 - Register Student\n2 - Edit Student\n3 - Check Student\n4 - Remove Student\n");
         scanf("%d", &students_option);
 
