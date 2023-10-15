@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Define variables for source code files and executable
-source_dir="C:/Users/Jacoba/Documents/Coding/C/Projetos/Banco_De_Dados/src"
+source_dir="../src"
 source_files=("view.c" "model.c" "handleFunc.c" "studentFunc.c")
-output_dir="C:/Users/Jacoba/Documents/Coding/C/Projetos/Banco_De_Dados/bin"
+output_dir="../bin"
 executable="database"
 
 # Change to the source directory
