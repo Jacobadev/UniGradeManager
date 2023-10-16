@@ -4,11 +4,7 @@
 source_dir="../src"
 source_files=("view.c" "model.c" "handleFunc.c" "studentFunc.c")
 output_dir="../bin"
-<<<<<<< HEAD
-executable="executable"
-=======
 executable="database"
->>>>>>> 4cabc59f312d771aaac67dd9a437789f54b7b52e
 
 # Change to the source directory
 cd "$source_dir" || { echo "Error: Unable to change to the source directory."; exit 1; }
